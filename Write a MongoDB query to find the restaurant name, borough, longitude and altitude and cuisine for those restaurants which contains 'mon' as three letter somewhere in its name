@@ -1,0 +1,1 @@
+db.Temp1.find({name:/mon/},{"name":1,"borough":1,"cuisine":1,"address.coord":1}).pretty()
